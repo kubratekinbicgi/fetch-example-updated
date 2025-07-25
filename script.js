@@ -204,7 +204,7 @@
             $(this).remove();
         });
 
-        $(appendLocation).on("mouseenter mouseleave", ".userCard", function () {
+        $(document).on("mouseenter mouseleave", ".userCard", function () {
             $(this).toggleClass("hovered");
         });
 
